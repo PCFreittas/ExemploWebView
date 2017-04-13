@@ -1,0 +1,30 @@
+<html>
+
+    <head>
+        <script type="text/javascript">
+                funcion mostraAndroidToast(n,1){
+                window.ads.showToast(n,1);
+                }
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <h1> Formulario em HTML </h1>
+
+        <form name="meuform">
+            Nome:
+            <input type="text" name="txtNome"/><br>
+            Idade:
+            <input type="text" name="txtIdade"/><br>
+
+            <input type="button"
+               onclick="mostraAndroidToast( txtNome.value, txtIdade.value);"
+               value="Enviar">
+        </form>
+
+    </body>
+
+</html>
