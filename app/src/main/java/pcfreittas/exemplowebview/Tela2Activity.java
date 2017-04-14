@@ -23,7 +23,7 @@ public class Tela2Activity extends AppCompatActivity {
 
     @JavascriptInterface
     public void showToast(String n, String i){
-        Toast.makeText(this,"Nome: + n + Idade:"+i, Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"Nome: " + n + " Idade:" + i, Toast.LENGTH_LONG).show();
     }
 
 }
